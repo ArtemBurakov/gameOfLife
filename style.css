@@ -1,0 +1,48 @@
+.field div{
+    position: absolute;
+    border:1px solid #D3D3D3;
+}
+
+.run{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border:1px solid #D3D3D3;
+    top:530px;
+    left:5px;
+}
+
+.clear{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border:1px solid #D3D3D3;
+    top:530px;
+    left:55px;
+}
+
+.manually{
+    position: absolute;
+    top:530px;
+    left:125px;
+}
+
+.limit{
+    position: absolute;
+    top:530px;
+    left:245px;
+}
+
+.limit input{
+    width:30px;
+}
+
+.size{
+    position: absolute;
+    top:560px;
+    left:245px;
+}
+
+.size input{
+    width:30px;
+}

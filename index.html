@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>Game Of Life</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="field" id="field"></div>
+		<button class="run" id="run" onClick="ranning = 1; gen(); document.getElementById('stop').style.display = ''; this.style.display = 'none';">Run</button>
+		<button class="run" id="stop" onClick="ranning = 0; document.getElementById('run').style.display = '';this.style.display = 'none';" style="display: none;">Stop</button>
+		<button class="clear" id="clear" onClick="window.location.reload();">Clear</button>
+		<div class="manually"><input onClick="manually = this.value; init();" type="radio" name="manually" value="1">Manually</div>
+		<div class="manually" style="top:545px;"><input onClick="manually = this.value; init();" type="radio" name="manually" value="0" checked="checked">Randomly</div>
+		<div class="limit"><input onchange="limit = this.value; init();" type="text" value="100"></div>
+		<div class="size"><input onchange="cell_size = this.value; console.log(cell_size); init();" type="text" value="5"></div>
+		<script src="script.js"></script>
+	</body>
+</html>
